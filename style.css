@@ -1,36 +1,36 @@
 body {
-    background-color: #121212;
-    color: #ffffff;
     font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
     margin: 0;
     padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
 }
 
 .container {
-    max-width: 1200px;
-    margin: 0 auto;
-    padding: 20px;
+    text-align: center;
 }
 
 h1 {
-    text-align: center;
     margin-bottom: 20px;
 }
 
-.gallery {
+.grid {
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
     gap: 10px;
 }
 
-.gallery img {
+.grid img {
     width: 100%;
     height: auto;
     cursor: pointer;
-    border-radius: 5px;
+    border-radius: 8px;
     transition: transform 0.2s;
 }
 
-.gallery img:hover {
+.grid img:hover {
     transform: scale(1.05);
 }
