@@ -1,5 +1,5 @@
 async function fetchImages() {
-    const subreddits = ['Amoledbackgrounds', 'wallpapers', 'darkwallpaper'];
+    const subreddits = ['wallpapers', 'darkwallpaper'];
     const imageUrls = [];
 
     for (const subreddit of subreddits) {
